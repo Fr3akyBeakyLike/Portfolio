@@ -1,0 +1,328 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+    background-color: #e3e3e2;
+}
+
+/* navigation on the right side */
+
+ul#sidenav {
+    list-style-type: none;
+    width: 2.6em;
+    position: fixed;
+    right: 0;
+    top: 10em;
+}
+
+/* Header */
+
+header {
+    display: block;
+    background-color: #122e6b;
+    max-height: 5em;
+    width: 100%;
+    padding-top: 2.7em;
+    padding-bottom: 2.7em;
+}
+
+header img {
+    width: 4em;
+    height: auto;
+    position: fixed;
+    top: 0.6em;
+    padding-left: 0.25em;
+}
+
+/* Bart Stay Fr3aky */
+
+section img#bart {
+    width: 100%;
+    background-color: #ff9bbe;
+}
+
+/* About */
+
+section.about {
+    background-color: #e3e3e2;
+}
+
+h2 {
+    text-align: center;
+    color: #ec1861;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    margin: 0;
+    padding: 0.5em 0em;
+    font-weight: 500;
+    font-style: italic;
+}
+
+article.blockinfo {
+    display: block;
+    background-color: #ec1861;
+    width: 18em;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 1em;
+    margin-bottom: 3em;
+}
+
+section article img#profile {
+    width: 7em;
+    margin: 1.5em 12em 1em 1em;
+    border-radius: 50%;
+}
+
+section p {
+    /* Placement of text */
+    margin: 0em 1em 0em 1em;
+    padding: 0em 0em 1em 0em;
+    /* Text markup */
+    font-family: 'kanit';
+    font-style: normal;
+    line-height: 1.2em;
+}
+
+/* Skills box markup */
+
+div.circlestyle {
+    border-radius: 50%;
+    background-color: white;
+    width: 7em;
+    height: 7em;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+
+ul#skills {
+    list-style: none;
+    font-style: bold;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    color: #ec1861;
+    justify-content: space-around;
+    padding: 0em 1em 1em 1em;
+}
+
+div h3 {
+    text-align: center;
+    padding-top: 29%;
+}
+
+#multiplelines {
+    padding-top: 20%;
+}
+
+.program {
+    font-size: 2em;
+}
+
+#smaller {
+    padding-top: 35%;
+}
+
+/*About me article*/
+
+article p {
+    padding: 1em;
+    line-height: 1.05;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+}
+
+/*Workshop*/
+
+section#workshop {
+    background-color: #122e6b;
+    padding-bottom: 1em;
+}
+
+h2#whitetitle {
+    color: white;
+}
+
+img.preview {
+    width: 18em;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+}
+
+
+/* More Work button */
+
+a#showcaseButton {
+    /* Tekst */
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1em;
+    /* Only works with 1 line */
+    line-height: 3em;
+
+    /* Link looking like button */
+    background-color: #00aeef;
+    display: block;
+    width: 12em;
+    height: 3em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2em;
+    border-radius: 3px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #122e6b;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+
+footer ul#footerimages {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+}
+
+footer ul li a img {
+    width: 2em;
+}
+
+footer ul#footertext {
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 1em 0 0 0;
+    margin: 0 auto;
+}
+
+footer ul li a p {
+    color: white;
+    font-weight: 100;
+    line-height: 1em;
+}
+
+/* Showcase Project */
+
+section#intro {
+    background-color: #ff9bbe;
+    color: white;
+}
+
+section p {
+    padding-left: 0.25em;
+    margin-left: 0em;
+}
+
+h1.showcasetitle {
+    margin-top: 0em;
+    padding-top: 0.5em;
+    padding-left: 0.12em;
+    margin-bottom: 0em;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: 500;
+    font-style: italic;
+}
+
+div#bottles {
+    background-image: url(media/flessenonder.svg);
+    width: 100%;
+    height: 3em;
+}
+
+section#youtubevideo {
+    background-color: white;
+}
+
+iframe {
+    height: 10em;
+    padding: 1.5em;
+    display: block;
+    align-content: center;
+    margin: 0 auto;
+}
+
+p.showcasetext {
+    /* text */
+    color: white;
+    font-size: 1em;
+    line-height: 1.2em;
+    /* block */
+    display: block;
+    background-color: #ec1861;
+    margin: 1.5em;
+    padding: 2em;
+}
+
+h2.showcasekop {
+    font-size: 1.8em;
+}
+
+h2#showcasekop {
+    color: white;
+    font-size: 1.8em;
+    margin-bottom: 0em;
+    padding-bottom: 0em;
+}
+
+section#deeper {
+    background-color: #122e6b;
+    padding-bottom: 0.2em;
+}
+
+section img#refilllogo {
+    width: 10em;
+    margin: 1.5em auto;
+    display: block;
+}
+
+a ul#showcaseButton {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+
+    /* Tekst */
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1em;
+    /* Only works with 1 line (vertically center it) */
+    line-height: 0.5em;
+
+    /* Link looking like button */
+    background-color: #00aeef;
+    width: 12em;
+    height: 3em;
+    margin: 0 auto 2em auto;
+    border-radius: 3px;
+    padding-top: 0em;
+}
+
+a ul img#pdf {
+    width: 1.5em;
+    padding: 0.5em;
+}
+
+a ul h3 {
+    padding-left: 0.6em;
+}
